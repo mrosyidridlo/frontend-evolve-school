@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/frontend-final-project/precache-manifest.c95109099440aad140d7f04ab1d5badd.js"
+  "/frontend-evolve-school/precache-manifest.1bd79b7b8ed2d97c7c5f859776497e88.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/frontend-final-project/index.html", {
+workbox.routing.registerNavigationRoute("/frontend-evolve-school/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
