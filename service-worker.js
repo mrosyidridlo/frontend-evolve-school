@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/frontrnd-final-project/precache-manifest.07996f3e73cbf53b00c496b926910bed.js"
+  "/frontrnd-evolve-school/precache-manifest.71b086eaee2628e1996f24db0b091f66.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/frontrnd-final-project/index.html", {
+workbox.routing.registerNavigationRoute("/frontrnd-evolve-school/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
